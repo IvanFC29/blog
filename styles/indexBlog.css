@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/fondo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(40, 125, 40);
+}
+
+#title{
+    text-align: center;
+    color: #fff;
+    font-family: "Lucida Calligraphy", "Vivaldi";
+}
+
+#botones_header{
+    text-align: right;
+}
+#btn_publicar, #btn_ver_posts{
+    background-color: rgb(40, 125, 40);
+    border-color: #000
+}
+
+/* Estilo para centrar el carrusel */
+.carousel {
+    margin: auto;
+    max-width: 800px; /* Puedes ajustar el tamaño del carrusel aquí */
+    min-height: 25%;
+}
+
+/* Estilo para colocar el carrusel por encima del encabezado */
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+#carrusel{
+    background-color: rgba(239, 228, 176, 0.7);
+    padding: 5%;
+}
+#parrafo{
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 25px;
+}

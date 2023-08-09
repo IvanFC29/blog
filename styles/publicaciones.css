@@ -1,0 +1,21 @@
+body{
+	background-image: url("../images/fondo.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	background-color: rgb(40, 125, 40);
+}
+
+#title_header{
+	text-align: center;
+	color: #fff;
+	font-family: "Lucida Calligraphy", "Vivaldi";
+}
+
+#contenedor{
+	background-color: rgba(239, 228, 176, 0.7);
+	margin: 20px;
+	padding: 20px;
+}
